@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <nav className="mq750:hidden flex items-center gap-8 pt-1.5 pr-10">
         <Link
-          href="https://app.gitbook.com/invite/KKhZbH1TU6J2wkCLpbOz/gnOuhOmIiXOOne338PuV"
+          href="https://evolverwa.gitbook.io/whitepaper"
           className="cursor-pointer hover:text-primary transition-colors duration-200 no-underline  text-secondary hover:scale-95 hover:animate-pulse"
         >
           Docs
@@ -56,14 +56,14 @@ const Navbar = () => {
       {isOpen && (
         <nav className="absolute top-full left-0 right-0 mt-2 py-2 px-4 bg-tertiary2 shadow-lg md:hidden">
           <Link
-            href="https://app.gitbook.com/invite/KKhZbH1TU6J2wkCLpbOz/gnOuhOmIiXOOne338PuV"
+            href="https://evolverwa.gitbook.io/whitepaper"
             className="block cursor-pointer hover:text-primary transition-colors duration-200  no-underline text-secondary"
           >
             Docs
           </Link>
           <Link
-            href="https://app.gitbook.com/invite/KKhZbH1TU6J2wkCLpbOz/gnOuhOmIiXOOne338PuV"
-            className="block mt-2 cursor-pointer hover:text-primary transition-colors duration-200 no-underline text-secondary"
+            href=""
+            className="block mt-2 cursor-pointer hover:text-gray-400 transition-colors duration-200 no-underline text-gray-500"
           >
             How to Buy
           </Link>
