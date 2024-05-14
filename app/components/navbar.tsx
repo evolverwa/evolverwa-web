@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -11,11 +12,13 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50   flex items-center justify-between bg-tertiary2 px-50 py-4 border-b border-tertiary2 text-secondary font-poppins text-xl w-full">
-      <div className="w-44 py-1.5 mq450:pl-4 pl-10 ">
-        <div className="relative h-6 bg-[url('/sitelogo-effects-transparent-1@2x.png')] bg-cover bg-no-repeat">
-          <div className="absolute top-1 left-7 w-36 h-4 z-10" />
-        </div>
-      </div>
+      <Image
+        width={152}
+        height={10}
+        src="/site-logo.png"
+        alt="EvolveRWA Logo"
+        className="object-cover ml-4 md:ml-10 "
+      />
 
       <nav className="mq750:hidden flex items-center gap-8 pt-1.5 pr-10">
         <Link
