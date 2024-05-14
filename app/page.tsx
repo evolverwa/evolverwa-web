@@ -7,7 +7,7 @@ import Navbar from "./components/navbar";
 
 const Home = () => {
   return (
-    <div className="w-full relative overflow-hidden flex flex-col items-start justify-start leading-[normal]">
+    <div className="w-full relative overflow-hidden flex flex-col items-start justify-center leading-[normal]">
       <Navbar />
       <Layout1 />
       <Layout />
