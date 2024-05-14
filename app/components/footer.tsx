@@ -9,7 +9,7 @@ const Footer = () => {
             className="w-[171.4px] h-6 relative object-cover"
             loading="lazy"
             alt="evolverwa-logo"
-            src="/sitelogo-effects-transparent-1@2x.png"
+            src="/site-logo.png"
           />
         </div>
         <div className="flex flex-row items-start justify-start gap-[12px]">

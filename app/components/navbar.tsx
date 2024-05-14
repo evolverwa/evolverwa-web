@@ -23,11 +23,11 @@ const Navbar = () => {
       <nav className="mq750:hidden flex items-center gap-8 pt-1.5 pr-10">
         <Link
           href="https://app.gitbook.com/invite/KKhZbH1TU6J2wkCLpbOz/gnOuhOmIiXOOne338PuV"
-          className="cursor-pointer hover:text-primary transition-colors duration-200 no-underline  text-secondary "
+          className="cursor-pointer hover:text-primary transition-colors duration-200 no-underline  text-secondary hover:scale-95 hover:animate-pulse"
         >
           Docs
         </Link>
-        <span className="cursor-not-allowed hover:text-gray-200 transition-colors duration-200 no-underline text-gray-200 ">
+        <span className="cursor-not-allowed hover:text-gray-400 transition-colors duration-200 no-underline text-gray-500 hover:animate-pulse">
           How to Buy
         </span>
       </nav>
