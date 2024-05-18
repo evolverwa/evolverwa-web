@@ -1,22 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="self-stretch h-[] bg-tertiary2 overflow-hidden flex flex-col items-start justify-start py-20 px-16 box-border gap-[80px] max-w-full mq450:gap-[20px] mq800:gap-[40px] mq800:pl-8 mq800:pr-8 mq800:box-border">
-      <div className="self-stretch flex flex-row items-start justify-between max-w-full gap-[20px] mq1125:flex-wrap">
-        <div className="w-[640px] overflow-hidden shrink-0 flex flex-col items-start justify-start max-w-full">
-          <img
-            className="w-[171.4px] h-6 relative object-cover"
-            loading="lazy"
-            alt="evolverwa-logo"
-            src="/site-logo.png"
-          />
+    <section className="self-stretch h-[] bg-tertiary2 overflow-hidden flex flex-col items-start justify-start  py-5 px-16  box-border gap-[80px] max-w-full mq450:gap-[20px] mq800:gap-[40px] mq800:pl-8 mq800:pr-8 mq800:box-border">
+      <div className="self-stretch flex flex-row items-start justify-between max-w-full gap-[20px] mq1125:flex-wrap ">
+        <div className="w-[640px] overflow-hidden shrink-0 flex flex-col md:flex-row  items-center justify-start max-w-full">
+          <Image width={200} height={200} alt="evolverwa-logo" src="/tokenlogo.png" />
+          <Image width={300} height={50} alt="evolverwa-logo" src="/sitelogo.png" />
         </div>
-        <div className="flex flex-row items-start justify-start gap-[12px]">
+        <div className="flex mq750:m-auto flex-row items-start justify-start gap-[12px]">
           <Link href="https://www.google.com">
             <div className="flex flex-col items-start justify-start pt-[3px] px-0 pb-0 cursor-pointer">
               <img
-                className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
+                className="w-12 h-12 relative overflow-hidden shrink-0"
                 src="/icon-discord.svg"
                 loading="lazy"
                 alt="discord icon"
@@ -25,7 +22,7 @@ const Footer = () => {
           </Link>
           <Link href="https://twitter.com/evolveRWA">
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] cursor-pointer"
+              className="h-12 w-12 relative overflow-hidden shrink-0 min-h-[24px] cursor-pointer"
               loading="lazy"
               alt="x icon"
               src="/icon--x.svg"
@@ -33,7 +30,7 @@ const Footer = () => {
           </Link>
           <Link href="https://www.youtube.com/channel/UC-xXEroh8pRaxHfe3-OZeow">
             <img
-              className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px] cursor-pointer"
+              className="h-12 w-12 relative overflow-hidden shrink-0 min-h-[24px] cursor-pointer"
               loading="lazy"
               alt="youtube icon"
               src="/icon--youtube.svg"

@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50   flex items-center justify-between bg-tertiary2 px-50 py-4 border-b border-tertiary2 text-secondary font-poppins text-xl w-full">
       <Image
-        width={152}
-        height={10}
-        src="/site-logo.png"
+        width={200}
+        height={32}
+        src="/sitelogo.png"
         alt="EvolveRWA Logo"
         className="object-cover ml-4 md:ml-10 "
       />
