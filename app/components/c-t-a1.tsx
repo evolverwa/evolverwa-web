@@ -16,7 +16,7 @@ const CTA1 = () => {
           <button className="cursor-pointer py-2.5 px-[23px] bg-secondary flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-secondary hover:bg-orangered hover:box-border hover:border-[1px] hover:border-solid hover:border-orangered">
             <div className="relative text-base leading-[150%] font-poppins text-tertiary2 text-left inline-block min-w-[89px]">
               <Link
-                href="https://app.gitbook.com/invite/KKhZbH1TU6J2wkCLpbOz/gnOuhOmIiXOOne338PuV"
+                href="https://evolverwa.gitbook.io/whitepaper"
                 className="cursor-pointer hover:text-primary transition-colors duration-200 no-underline  text-white "
               >
                 Learn More
