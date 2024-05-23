@@ -33,10 +33,7 @@ const Layout1 = () => {
           </div>
         </div>
         <div className="flex-1 mq800:w-full mq800:min-w-[320px] mq750:w-full mq750:min-w-[320px] mq450:w-full mq450:min-w-[320px]">
-          <ReactPlayer
-            width="100%"
-            url="https://www.youtube.com/watch?v=ZSTYNYz7dfM&feature=youtu.be"
-          />
+          <ReactPlayer width="100%" url="https://youtu.be/Xj3AZUEbuJ0" />
         </div>
       </div>
     </section>
